@@ -1,0 +1,32 @@
+{
+    "name": "phwoolcon/push-service",
+    "description": "Push Service Module for Phwoolcon",
+    "keywords": ["phwoolcon", "push"],
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Christopher CHEN",
+            "email": "fishdrowned@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phwoolcon/phwoolcon": "~1.0",
+        "phwoolcon/rpc": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phwoolcon\\PushService\\": "src",
+            "Phwoolcon\\PushService\\Tests\\": "tests"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phwoolcon/push-service": "~1.0"
+    },
+    "phwoolcon-packages": [
+        {
+            "name": "phwoolcon/push-service",
+            "url": "git@github.com:phwoolcon/push-service.git"
+        }
+    ]
+}
